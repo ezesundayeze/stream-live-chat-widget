@@ -32,7 +32,7 @@ function Chat(token, id){
         // add as many custom fields as you'd like
         image: 'https://cdn.chrisshort.net/testing-certificate-chains-in-go/GOPHER_MIC_DROP.png',
         name: "Talk About Anything",
-        members: ['admin', 'daniel'],
+        members: ['admin', 'okon'],
       });
     
     // fetch the channel state, subscribe to future updates
@@ -96,7 +96,7 @@ function Chat(token, id){
 }
 
 const url = "https://stream-token-genetor.herokuapp.com/get-token"
-const username = "daniel"
+const username = "okon"
 
 init(url, username)
 

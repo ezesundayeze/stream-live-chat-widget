@@ -1,5 +1,5 @@
 const messsageText = document.getElementById("messageText")
-const apiKey = "wf946y4ahq5j"
+const apiKey = ""
 const client = new StreamChat(apiKey);
 
 const init = (url, username)=>{
@@ -33,7 +33,7 @@ function Chat(token, id){
         // add as many custom fields as you'd like
         image: 'https://cdn.chrisshort.net/testing-certificate-chains-in-go/GOPHER_MIC_DROP.png',
         name: "Talk About Anything",
-        members: ['admin', 'daniel'],
+        members: ['admin', 'okon'],
       });
     
     // fetch the channel state, subscribe to future updates
